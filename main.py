@@ -160,11 +160,11 @@ st.markdown('---')
 st.markdown("""
             A new riddle emerges. Embark on a quest to decipher the puzzle hidden in the link below. Within its fragmented pieces lies a cryptic QR code—a key to an elusive video. This video holds the secrets to accessing the next enigmatic realm of our journey. Follow the clues, decode the symbols, and unveil the path that awaits. 🌌🗝️
             **Embark on the quest here:** [Sliding Puzzle](https://puzzel.org/slidingpuzzle/play?p=-O56e-9t3zirMcSadty1)""")
-t1 = st.text_input(' ', key='t1')
-t2 = st.text_input(' ', key='t2')
-t3 = st.text_input(' ', key='t3')
-t4 = st.text_input(' ', key='t4')
-t5 = st.text_input(' ', key='t5')
+t1 = st.text_input('Level 1 Button Type', key='t1')
+t2 = st.text_input('Level 2', key='t2')
+t3 = st.text_input('Level 3', key='t3')
+t4 = st.text_input('Level 4', key='t4')
+t5 = st.text_input('Level 5', key='t5')
 
 button_values = ['oak', 'oak', 'oak', 'jungle', 'warped']
 button_inputs = [t1, t2, t3, t4, t5]
