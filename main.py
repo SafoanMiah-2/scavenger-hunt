@@ -152,7 +152,7 @@ name_values = [
 ]
 name_inputs = [a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, c1, c2, c3, c4, c5, c6]
 
-#check(name_inputs, name_values)
+check(name_inputs, name_values)
 st.markdown('---')
 
 
