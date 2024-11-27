@@ -183,6 +183,7 @@ if final_button == True and final_answer.lower() == 'yes':
     st.markdown("Thank you, Riley, I hope you enjoyed this little journey down memory lane. 💝")
     st.snow()
     st.image('img/final.jpg')
+    st.markdown('# Secret for your birthday 🐦: Kiwi')
 else: 
     iframe_html = """
     <iframe style="width: 100%; 
